@@ -15,7 +15,6 @@ if __name__ == '__main__':
 
     # load data
     df = pd.read_feather(f'./data/{symbol.lower()}_from_{from_date}_interval_{interval}.feather')
-    df = df[:91]
 
     # define model & periods based on periodicBNN
     model = operators.Add(
