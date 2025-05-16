@@ -1,2 +1,4 @@
-notebooks/*
+model/
+notebooks/
+__pycache__/
 .env
